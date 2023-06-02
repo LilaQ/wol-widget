@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		258E0DB0C5D4B066421165BD /* Pods_wol_widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7D91448EF16F922B7B666A /* Pods_wol_widget.framework */; };
 		27F6D4612A28BAFD001E86F0 /* wol_widgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F6D4602A28BAFD001E86F0 /* wol_widgetApp.swift */; };
-		27F6D4632A28BAFD001E86F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F6D4622A28BAFD001E86F0 /* ContentView.swift */; };
 		27F6D4652A28BAFE001E86F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F6D4642A28BAFE001E86F0 /* Assets.xcassets */; };
 		27F6D4682A28BAFE001E86F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F6D4672A28BAFE001E86F0 /* Preview Assets.xcassets */; };
+		27F6D4702A28BDF1001E86F0 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 27F6D46F2A28BDF1001E86F0 /* swiftgen.yml */; };
+		27F6D47D2A28BEB7001E86F0 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27F6D47F2A28BEB7001E86F0 /* en.strings */; };
+		27F6D4812A28BEFB001E86F0 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F6D4802A28BEFB001E86F0 /* XCAssets+Generated.swift */; };
+		27F6D4832A28BF1E001E86F0 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F6D4822A28BF1E001E86F0 /* Strings+Generated.swift */; };
+		27F6D4852A28BF67001E86F0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 27F6D4842A28BF67001E86F0 /* Podfile */; };
+		27F6D4872A291465001E86F0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F6D4862A291465001E86F0 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27F6D45D2A28BAFD001E86F0 /* wol-widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wol-widget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F6D4602A28BAFD001E86F0 /* wol_widgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wol_widgetApp.swift; sourceTree = "<group>"; };
-		27F6D4622A28BAFD001E86F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27F6D4642A28BAFE001E86F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F6D4672A28BAFE001E86F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27F6D4692A28BAFE001E86F0 /* wol_widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wol_widget.entitlements; sourceTree = "<group>"; };
+		27F6D46F2A28BDF1001E86F0 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = SOURCE_ROOT; };
+		27F6D47E2A28BEB7001E86F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/en.strings; sourceTree = "<group>"; };
+		27F6D4802A28BEFB001E86F0 /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
+		27F6D4822A28BF1E001E86F0 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		27F6D4842A28BF67001E86F0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		27F6D4862A291465001E86F0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		72B41B3C23EE10C0F15B2E59 /* Pods-wol-widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wol-widget.release.xcconfig"; path = "Target Support Files/Pods-wol-widget/Pods-wol-widget.release.xcconfig"; sourceTree = "<group>"; };
+		92273CA9EFF4050857FE2FA7 /* Pods-wol-widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wol-widget.debug.xcconfig"; path = "Target Support Files/Pods-wol-widget/Pods-wol-widget.debug.xcconfig"; sourceTree = "<group>"; };
+		FA7D91448EF16F922B7B666A /* Pods_wol_widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wol_widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +41,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				258E0DB0C5D4B066421165BD /* Pods_wol_widget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		242980A00D301D68705232F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D91448EF16F922B7B666A /* Pods_wol_widget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		27F6D4542A28BAFD001E86F0 = {
 			isa = PBXGroup;
 			children = (
+				27F6D4842A28BF67001E86F0 /* Podfile */,
+				27F6D46F2A28BDF1001E86F0 /* swiftgen.yml */,
 				27F6D45F2A28BAFD001E86F0 /* wol-widget */,
 				27F6D45E2A28BAFD001E86F0 /* Products */,
+				9DAC683CDB7439DE10C2DDCA /* Pods */,
+				242980A00D301D68705232F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +79,13 @@
 		27F6D45F2A28BAFD001E86F0 /* wol-widget */ = {
 			isa = PBXGroup;
 			children = (
+				27F6D4722A28BE07001E86F0 /* Localization */,
+				27F6D4712A28BDFB001E86F0 /* Generated */,
 				27F6D4602A28BAFD001E86F0 /* wol_widgetApp.swift */,
-				27F6D4622A28BAFD001E86F0 /* ContentView.swift */,
 				27F6D4642A28BAFE001E86F0 /* Assets.xcassets */,
 				27F6D4692A28BAFE001E86F0 /* wol_widget.entitlements */,
 				27F6D4662A28BAFE001E86F0 /* Preview Content */,
+				27F6D4862A291465001E86F0 /* NetworkManager.swift */,
 			);
 			path = "wol-widget";
 			sourceTree = "<group>";
@@ -69,6 +98,32 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		27F6D4712A28BDFB001E86F0 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				27F6D4822A28BF1E001E86F0 /* Strings+Generated.swift */,
+				27F6D4802A28BEFB001E86F0 /* XCAssets+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		27F6D4722A28BE07001E86F0 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				27F6D47F2A28BEB7001E86F0 /* en.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		9DAC683CDB7439DE10C2DDCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92273CA9EFF4050857FE2FA7 /* Pods-wol-widget.debug.xcconfig */,
+				72B41B3C23EE10C0F15B2E59 /* Pods-wol-widget.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,6 +131,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27F6D46C2A28BAFE001E86F0 /* Build configuration list for PBXNativeTarget "wol-widget" */;
 			buildPhases = (
+				86F1C5EB2C4CA69C8222ECCC /* [CP] Check Pods Manifest.lock */,
+				27F6D4752A28BE2E001E86F0 /* SwiftGen */,
 				27F6D4592A28BAFD001E86F0 /* Sources */,
 				27F6D45A2A28BAFD001E86F0 /* Frameworks */,
 				27F6D45B2A28BAFD001E86F0 /* Resources */,
@@ -127,24 +184,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F6D4852A28BF67001E86F0 /* Podfile in Resources */,
 				27F6D4682A28BAFE001E86F0 /* Preview Assets.xcassets in Resources */,
+				27F6D47D2A28BEB7001E86F0 /* en.strings in Resources */,
 				27F6D4652A28BAFE001E86F0 /* Assets.xcassets in Resources */,
+				27F6D4702A28BDF1001E86F0 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27F6D4752A28BE2E001E86F0 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi \n";
+		};
+		86F1C5EB2C4CA69C8222ECCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wol-widget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27F6D4592A28BAFD001E86F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F6D4632A28BAFD001E86F0 /* ContentView.swift in Sources */,
+				27F6D4872A291465001E86F0 /* NetworkManager.swift in Sources */,
 				27F6D4612A28BAFD001E86F0 /* wol_widgetApp.swift in Sources */,
+				27F6D4812A28BEFB001E86F0 /* XCAssets+Generated.swift in Sources */,
+				27F6D4832A28BF1E001E86F0 /* Strings+Generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27F6D47F2A28BEB7001E86F0 /* en.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F6D47E2A28BEB7001E86F0 /* en */,
+			);
+			name = en.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		27F6D46A2A28BAFE001E86F0 /* Debug */ = {
@@ -180,6 +297,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -240,6 +358,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -262,6 +381,7 @@
 		};
 		27F6D46D2A28BAFE001E86F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92273CA9EFF4050857FE2FA7 /* Pods-wol-widget.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -269,11 +389,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"wol-widget/Preview Content\"";
 				DEVELOPMENT_TEAM = 28D66FZKZF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,6 +411,7 @@
 		};
 		27F6D46E2A28BAFE001E86F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B41B3C23EE10C0F15B2E59 /* Pods-wol-widget.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,11 +419,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"wol-widget/Preview Content\"";
 				DEVELOPMENT_TEAM = 28D66FZKZF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
